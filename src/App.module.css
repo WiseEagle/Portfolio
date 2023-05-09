@@ -1,0 +1,14 @@
+.App{
+    display: grid;
+    grid-template-areas:
+    "h" "c" "f";
+    grid-auto-rows: 60px 1fr 60px;
+    grid-gap:20px;
+}
+
+.AppContent{
+    grid-area: c;
+    min-height: calc(100vh - 160px);
+    min-height: -webkit-calc(100vh - 160px);
+    min-height: -moz-calc(100vh - 160px);
+}

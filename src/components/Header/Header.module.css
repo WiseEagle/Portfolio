@@ -1,0 +1,17 @@
+.AppHeader{
+    grid-area: h;
+    background: rgb(236,254,255);
+    background: linear-gradient(135deg, rgb(237 241 248) 0%, rgb(255 254 243) 100%);
+}
+.logo, .menu{
+    line-height: 60px;
+}
+.menu a{
+    text-decoration: none;
+    color: #0099ff;
+    margin: 0 10px;
+}
+.flexBeetwen{
+    display: flex;
+    justify-content: space-between;
+}
